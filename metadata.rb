@@ -8,3 +8,6 @@ version          '0.1.0'
 supports         'mac_os_x'
 depends          'sprout-base'
 depends          'homebrew'
+
+issues_url 'https://github.com/pivotal-sprout/sprout-rbenv/issues'
+source_url 'https://github.com/pivotal-sprout/sprout-rbenv'
