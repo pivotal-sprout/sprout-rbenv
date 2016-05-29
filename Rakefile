@@ -1,8 +1,9 @@
 require 'rake'
+require 'foodcritic'
 
 task default: %w(foodcritic)
 
 desc 'Run foodcritic'
-task :foodcritic do
-  sh 'foodcritic . -f any -f ~FC015'
+FoodCritic::Rake::LintTask.new do |t|
+  t.options[:fail_tags] = ['any', '~FC015']
 end
