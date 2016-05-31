@@ -17,5 +17,4 @@ install:
   - gem install bundler --no-document
   - bundle install
 script:
-  - bundle exec rake
-  - soloist
+  - bundle exec rake ci
