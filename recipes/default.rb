@@ -1,3 +1,5 @@
+include_recipe 'homebrew'
+
 rubies       = node['sprout']['rbenv']['rubies']
 default_ruby = node['sprout']['rbenv']['default_ruby']
 
